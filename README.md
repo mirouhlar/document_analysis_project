@@ -1,4 +1,4 @@
-# AI System for Automated Document Analysis and Classification (Without LLMs)
+# System for Automated Document Analysis and Classification (Without LLMs)
 
 ## Project Overview
 
