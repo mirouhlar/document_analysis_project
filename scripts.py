@@ -1,6 +1,6 @@
 import os
 from preprocessing.ocr_processing import extract_text, extract_text_from_pdf
-from preprocessing.feature_extraction import extract_features
+from feature_extraction.feature_extraction import extract_features
 
 def process_document(file_path):
 
@@ -13,7 +13,7 @@ def process_document(file_path):
     return text, features
 
 if __name__ == "__main__":
-    sample_pdf = "data/sample.pdf"
+    sample_pdf = "data/sample2.pdf"
     sample_image = "data/sample.png"
     
     if os.path.exists(sample_pdf):
