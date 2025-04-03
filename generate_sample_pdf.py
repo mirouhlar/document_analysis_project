@@ -6,9 +6,9 @@ def create_sample_pdf(output_path="data/sample.pdf"):
     c.setFont("Helvetica", 12)
 
     c.drawString(100, 750, "Invoice #12345")
-    c.drawString(100, 730, "Date: 2024-04-02")
-    c.drawString(100, 710, "Company: ABC Corp")
-    c.drawString(100, 690, "Total Amount: $1,250.00")
+    c.drawString(100, 730, "Date: 25 Mar 2025")
+    c.drawString(100, 710, "Company: MuHL")
+    c.drawString(100, 690, "Total Amount: €2.500")
     c.drawString(100, 670, "Signature: ____________________")
 
     c.save()

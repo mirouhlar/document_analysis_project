@@ -13,7 +13,7 @@ def process_document(file_path):
     return text, features
 
 if __name__ == "__main__":
-    sample_pdf = "data/sample2.pdf"
+    sample_pdf = "/Users/miroslavuhlar/Documents/Github reps/document_analysis_project/data/2022/us/amtrak_20221016.pdf"
     sample_image = "data/sample.png"
     
     if os.path.exists(sample_pdf):
